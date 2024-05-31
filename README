@@ -1,1 +1,17 @@
-1. Clone both the repositories from the links below:
+# Setup
+
+1. Clone the project which will make two projects/folders in your working directory
+2. The projects will be client and server which are frontend and backend respectively
+3. Place the .env file in "server" folder
+4. Make a database locally and replace the DATABASE_URL link in .env with your database connection url
+5. You are ready to run the projects
+
+# Running the projects
+For server, open the terminal and run the following commands:
+    1. npm i
+    2. npx prisma migrate dev
+    3. npx prisma generate
+    4. npm run dev
+For client, open the terminal and run the following commands:
+    1. npm i
+    2. npm run dev
